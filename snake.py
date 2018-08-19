@@ -147,7 +147,7 @@ def main():
                         start = True
 
                 elif event.type == pygame.QUIT:
-                    defeat, start, game, restart = True, True, False, False
+                    defeat, start, game, restart = True, True, False, True
             pygame.display.flip()
         while not defeat:
             screen.fill((0, 0, 0)), screen.blit(txtTitl, txtposTitl)
@@ -162,7 +162,8 @@ def main():
             for event in pygame.event.get():
 
                 if event.type == pygame.QUIT:
-                    defeat = True
+                    defeat, start, game, restart = True, False, False, True
+
 
                 elif event.type == pygame.KEYDOWN and moveAvaible:
                     direction = changDir({119: "z", 273: "z", 115: "s", 274: "s", 97: "q", 276: "q", 100: "d", 275: "d"}[event.key], direction)
@@ -218,7 +219,7 @@ def main():
                         defeat = False
 
                 elif event.type == pygame.QUIT:
-                    defeat, start, game, restart = True, True, False, False
+                    defeat, start, game, restart = True, False, False, True
 
             pygame.display.flip()
     pygame.quit()
