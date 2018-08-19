@@ -5,6 +5,9 @@ Simple and ugly snake game
 
 Ugly copy in Python of the original snake game on nokia 3310. The only difference (besides being frankly ugly) is that the snake can cross the edges of the platform, the score increases by 10 points each time the snake eats food.
 
+![noelshack.com](https://image.noelshack.com/fichiers/2018/33/7/1534681931-1.png)
+
+
 ## Configuration
 
 * __Cell__  
