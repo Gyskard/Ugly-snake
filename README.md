@@ -8,12 +8,12 @@ Ugly copy in Python of the original snake game on nokia 3310. The only differenc
 ## Configuration
 
 * __Cell__  
-  * x : Game grid size in x (horizontal)  
-  * y : Game grid size in y (vertical) 
+  * __x__ : Game grid size in x (horizontal)  
+  * __y__ : Game grid size in y (vertical) 
 
 * __Snake__  
-  * size : Initial snake size  
-  * speed : Speed of snake movement (interval time)  
+  * __size__ : Initial snake size  
+  * __speed__ : Speed of snake movement (interval time)  
 
 *The configuration can be found and edited in config/config.ini.*
 
